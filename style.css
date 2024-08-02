@@ -1,0 +1,93 @@
+@font-face {
+    font-family: RedHatDisplay-SemiBold;
+    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-SemiBold.ttf
+    );
+
+}
+@font-face {
+    font-family: RedHatDisplay-Light;
+    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: RedHatDisplay-Medium ;
+    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: RedHatDisplay-Regular;
+    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf);
+}
+*{  margin: 0;
+    padding: 0;}
+
+ul li{list-style: none;}
+
+img{max-width: 100%;
+height: auto;}
+
+
+    /* navbar */
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+.logo img{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 20px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+    color: #333;
+    padding: 10px 20px;
+    margin-right: 40px;
+  }
+  
+  ul li {
+    margin: 0 10px;
+  }
+  ul :hover{
+    color: orange;
+  }
+ 
+  ul :active {
+    color: #333;
+  }
+  .btn-1 {
+    background-color: white;
+    color: #FF383D;
+    border: 1px solid #FF383D;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 46px;
+  }
+
+/* container */
+.container{
+  display: flex;
+  background-color: #fff;
+}
+.container-text h5{
+  padding-top: 50px;
+  padding-left: 20px;
+  font-size: 32px;
+  line-height: 39.04px;
+  color: #FF383D;
+}
+
+  
+
+/* covid */
+
+    /* what should we do  */
+
+/* question */
+
+
+
+/* footer */
